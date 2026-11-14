@@ -7,7 +7,7 @@
 
 An academic machine-learning application that predicts one of 10 skin-disease classes from user-entered symptom and health information. The application uses a tuned XGBoost classifier for prediction and Google Gemini AI to generate a patient-friendly explanation.
 
-> **Important medical disclaimer:** This is an academic prototype trained on a synthetic dataset. It is not a medical device, does not provide a medical diagnosis, and must not be used to make treatment decisions. Predictions and AI-generated explanations may be inaccurate. Consult a qualified healthcare professional for medical advice.
+> **Important medical disclaimer:** This is an academic prototype trained on a synthetic dataset. It is not a medical device, does not provide a medical diagnosis and must not be used to make treatment decisions. Predictions and AI-generated explanations may be inaccurate. Consult a qualified healthcare professional for medical advice.
 
 ---
 
@@ -30,7 +30,7 @@ An academic machine-learning application that predicts one of 10 skin-disease cl
 
 Skin conditions can have symptoms that are difficult for people to interpret. This project explores how machine learning and generative AI can be combined in an educational application to help users understand symptom-based predictions.
 
-The project includes a data-science workflow—from data cleaning and exploratory analysis to model comparison, hyperparameter tuning, and a Streamlit interface. Gemini AI is used to provide a natural-language explanation alongside the model output.
+The project includes a data-science workflow—from data cleaning and exploratory analysis to model comparison, hyperparameter tuning and a Streamlit interface. Gemini AI is used to provide a natural-language explanation alongside the model output.
 
 The classifier predicts one of the following 10 classes:
 
@@ -160,6 +160,36 @@ The Streamlit application is designed to provide an end-to-end demonstration:
 
 Gemini AI is used to explain the model output in natural language. It does not independently verify the prediction or replace a clinician.
 
+## Application Screenshots
+
+### 1. Streamlit Application
+
+The application allows users to enter their information and symptoms to receive a machine-learning prediction.
+
+![Application Demo 1](images/Streamlit%20Application%20Demo-1.png)
+
+![Application Demo 2](images/Streamlit%20Application%20Demo-2.png)
+
+![Application Demo 3](images/Streamlit%20Application%20Demo-3.png)
+
+### 2. Exploratory Data Analysis
+
+Visualisations used to understand the dataset and identify patterns.
+
+![Age Distribution](images/age_distribution.png)
+
+![Gender Distribution](images/gender_distribution.png)
+
+![Disease Distribution](images/target_variable_distribution.png)
+
+### 3. Model Evaluation
+
+Confusion matrix and model performance comparison.
+
+![Confusion Matrix](images/Tuned_XGBoost-Confusion_Matrix.png)
+
+![XGBoost Accuracy Comparison](images/XGBoost%20Accuracy%20Before%20vs%20After%20Hyperparameter%20Tuning.png)
+
 ## System Workflow
 
 ```text
@@ -230,11 +260,9 @@ AI_Dermatology_Assistant/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/ai-dermatology-assistant.git
+git clone https://github.com/hummad01/ai-dermatology-assistant.git
 cd ai-dermatology-assistant
 ```
-
-Replace `YOUR_GITHUB_USERNAME` with your GitHub username.
 
 ### 2. Create and activate a virtual environment
 
