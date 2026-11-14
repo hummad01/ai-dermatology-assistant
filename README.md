@@ -19,6 +19,7 @@ An academic machine-learning application that predicts one of 10 skin-disease cl
 - [Data Preparation](#data-preparation)
 - [Model Development](#model-development)
 - [Application Features](#application-features)
+- [Application Screenshots](#application-screenshots)
 - [System Workflow](#system-workflow)
 - [Project Structure](#project-structure)
 - [Installation and Setup](#installation-and-setup)
